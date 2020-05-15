@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+}
+.nav1{
+	background-color: white;
+	padding: 30px;
+}
+.nav1 img{
+	margin-left: 140px;
+}
+.links{
+	float: right;
+	margin-right: 150px;
+}
+.links a{
+	text-decoration: none;
+	padding: 10px;
+	color: hsl(216, 30%, 68%);
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-family: karla;
+}
+.links button{
+	border:solid black;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	outline: none;
+	border-width: 1px;
+	text-transform: uppercase;
+	font-weight: 400;
+	background-color: white;
+	font-family: karla;
+
+}
+
+.one{
+	background-color:hsl(256, 26%, 20%);
+	background-image:url(bg-pattern-intro-right-desktop.svg);
+    background-position:right top;
+    background-repeat: no-repeat,no-repeat;
+    padding:170px;
+	color: white;
+}
+.right{
+	float: right;
+}
+.one .text{
+	margin-top: -50px;
+	margin-left: -130px;
+}
+.text h1{
+font-size: 70px;
+font-family: DM Serif Display;
+font-weight: 400;
+line-height: 70px;
+}
+.text p{
+	font-family: karla;
+	color: hsl(0, 0%, 98%);
+	padding-top: 30px;
+	line-height: 30px;
+}
+.text button{
+	border:solid white;
+	padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+	margin-top: 30px;
+	outline: none;
+	border-width: 1px;
+	text-transform: uppercase;
+	font-weight: 400;
+	background-color: hsl(256, 26%, 20%);
+	font-family: karla;
+	color: hsl(0, 0%, 98%);
+	font-size: 16px;
+}
+.image1{
+	margin-left: 48%;
+	margin-top: -38%;
+}
+
+.part-2{
+	padding-bottom:150px;
+	padding-top: 210px;
+	padding-left: 50px;
+
+}
+.part-2 h1{
+font-size: 70px;
+font-family: DM Serif Display;
+font-weight: 400;
+line-height: 70px;
+padding-bottom: 100px;
+
+}
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 100px; 
+
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+  .column h2{
+  	font-size: 30px;
+  	font-family: DM Serif Display;
+  	font-weight: 400;
+  	padding-top: 30px;
+  	padding-bottom: 20px;
+  }
+  .column p{
+  	font-family: karla;
+	color: hsl(216, 30%, 68%);
+	line-height: 30px;
+	font-size:13px;
+  }
+ .how-we-work{
+ 	background-color:hsl(256, 26%, 20%);
+	background-image:url(bg-pattern-how-we-work-desktop.svg);
+    background-position:right top;
+    background-repeat: no-repeat;
+    padding: 70px;
+    padding-bottom: 30px;
+    margin: 150px;
+ }
+ .how-we-work h1{
+ 	font-size: 50px;
+font-family: DM Serif Display;
+font-weight: 400;
+line-height: 70px;
+color: white;
+ }
+ .how-we-work  button{
+ 	border:solid white;
+	padding: 10px;
+	float: right;
+    padding-right: 30px;
+    padding-left: 30px;
+	margin-top:-12%;
+	
+	outline: none;
+	border-width: 1px;
+	text-transform: uppercase;
+	font-weight: 400;
+	background-color: hsl(256, 26%, 20%);
+	font-family: karla;
+	color: hsl(0, 0%, 98%);
+	font-size: 16px;
+ }
+ .footer{
+ 	background-image: url(bg-pattern-footer-desktop.svg);
+ 	background-color: hsl(0, 0%, 98%);
+ 	padding-bottom: 150px;
+ }
+
+ .social{
+ 	float: right; 
+ }
+ .social img{
+ 	padding: 10px;
+ }
+ .nav2{
+  padding: 50px;
+
+ }
+
+.column2 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 100px; 
+
+}
+
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+  }
+}
+.column2 h5{
+	color:hsl(216, 30%, 68%);
+	font-family: karla;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+ .column2 p{
+  	font-family: karla;
+	color: hsl(270, 9%, 17%);
+	line-height: 35px;
+	font-size:13px;
+	font-weight: 700;
+  }
+  .row2{
+  	padding: 50px;
+  	padding-top: 10px;
+  	padding-left: 60px;
+  }
+
+
